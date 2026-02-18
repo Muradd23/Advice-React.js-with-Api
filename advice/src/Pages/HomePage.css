@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    margin: 0;
+    background-color: hsl(218, 23%, 16%);
+}
+
+.advice-container{
+    position: relative;
+    width: 90%;
+    max-width: 450px;
+    min-height: 270px;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 20px;
+    display: grid;
+    justify-items: center;
+    gap: 15px;
+    padding: 40px 30px 70px 30px;
+}
+.advice-number-container{
+   color: hsl(150, 100%, 66%);
+}
+.advice-text-container{
+    color: hsl(193, 38%, 86%);
+    font-size: clamp(18px, 4vw, 24px);
+    text-align: center;
+}
+
+.pattern-divider{
+    width:100%;
+}
+
+.random-advice-button{
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    background-color:hsl(150, 100%, 66%);
+    cursor: pointer;
+}
+
+.random-advice-button:hover{
+    box-shadow: 0 0 25px hsl(150, 100%, 66%);
+}
